@@ -1,0 +1,139 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.containerone,.containertwo,.containerthree,.containerfour{
+    display: flex;
+   
+    
+}
+#heading{
+    margin-left: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Roboto;
+    /* font-weight: bold; */
+    margin-bottom: 0px;
+     
+}
+#heading:hover{
+    cursor: pointer;
+    color: gray;
+    margin-left: 0px;
+    transition: ease-in 200ms;
+}
+
+
+img{
+    /* margin-top: 100px; */
+    height: 350px;
+    width: 500px;
+    transition: ease-in-out 800ms;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+img:hover{
+    
+    transform: rotateY(180deg);
+}
+
+
+#headtwo{
+    font-size: 45px;
+    transition: transform 50ms;
+
+}
+#headtwo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#mid{
+    font-size: 17px;
+    font-family: verdana;
+}
+
+
+#end{
+font-family: Roboto;
+font-size: 20px;
+
+}
+#end:hover{
+cursor: pointer;
+color: gray;
+}
+button{
+background-color: rgb(22, 22, 22);
+color: white;
+border: solid 1px whitesmoke;
+height: 50px;
+width: 250px;
+font: verdana;
+font-size: 15px;
+text-align: center;
+cursor: pointer;
+margin-left: 300px;
+margin-top: 50px;
+
+}
+.darkMode{
+background-color: rgb(22, 22, 22);
+color: white;
+/* margin-top: 100px; */
+}
+
+
+.first,.second,.third,.fourth{
+    height: 350px;
+    width: 500px;
+    margin-left: 300px;
+
+}
+#imageone{
+    margin-top: 80px;
+}
+
+@media ( width<=435px) {
+    .containerone,.containertwo,.containerthree,.containerfour{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+      
+       
+    }
+    button{
+        margin-left: 100px;
+    }
+    .first, .second,.third ,.fourth{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    img{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+}
+    
+    @media(435px<width<=1020px){ 
+        div{
+                height: 350px; 
+               width: 400px;
+               margin-left: 80px;
+               margin-bottom: 80px;
+               /* margin-right: 80PX; */
+             
+            }
+            .second,.third,.fourth{
+                padding-top: 175px;
+            } 
+
+            
+    } 
+    
+#ending{
+    height: 40vh;
+}
